@@ -13,4 +13,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static void josephus(int n, int k) {
+		
+	}
 }
