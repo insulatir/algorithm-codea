@@ -22,6 +22,9 @@ public class Main {
 		int kill = 0;
 		while (survivors.size() > 2) {
 			survivors.remove(kill);
+			if (kill >= survivors.size()) {
+				kill = 0;
+			}
 		}
 	}
 }
