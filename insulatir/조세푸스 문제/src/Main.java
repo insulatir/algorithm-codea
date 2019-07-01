@@ -8,6 +8,8 @@ public class Main {
 		for (int i = 0; i < C; i++) {
 			int N = scan.nextInt();
 			int K = scan.nextInt();
+			
+			josephus(N, K);
 		}
 		
 		scan.close();
