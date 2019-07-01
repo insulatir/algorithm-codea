@@ -15,5 +15,8 @@ public class Main {
 
 	public static void josephus(int n, int k) {
 		List<Integer> survivors = new ArrayList<Integer>();
+		for (int i = 1; i <= n; i++) {
+			survivors.add(i);
+		}
 	}
 }
