@@ -28,6 +28,9 @@ public class Main {
 			
 			for (int i = 0; i < k-1; i++) {
 				kill += 1;
+				if (kill >= survivors.size()) {
+					kill = 0;
+				}
 			}
 		}
 	}
