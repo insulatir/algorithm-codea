@@ -33,5 +33,7 @@ public class Main {
 				}
 			}
 		}
+		
+		System.out.println(survivors.get(0) + " " + survivors.get(1));
 	}
 }
