@@ -14,6 +14,6 @@ public class Main {
 	}
 
 	public static void josephus(int n, int k) {
-		
+		List<Integer> survivors = new ArrayList<Integer>();
 	}
 }
