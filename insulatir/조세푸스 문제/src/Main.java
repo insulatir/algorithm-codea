@@ -7,6 +7,7 @@ public class Main {
 		int C = scan.nextInt();
 		for (int i = 0; i < C; i++) {
 			int N = scan.nextInt();
+			int K = scan.nextInt();
 		}
 		
 		scan.close();
