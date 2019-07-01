@@ -20,5 +20,8 @@ public class Main {
 		}
 		
 		int kill = 0;
+		while (survivors.size() > 2) {
+			
+		}
 	}
 }
