@@ -18,5 +18,7 @@ public class Main {
 		for (int i = 1; i <= n; i++) {
 			survivors.add(i);
 		}
+		
+		int kill = 0;
 	}
 }
