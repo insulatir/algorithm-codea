@@ -25,6 +25,10 @@ public class Main {
 			if (kill >= survivors.size()) {
 				kill = 0;
 			}
+			
+			for (int i = 0; i < k-1; i++) {
+				kill += 1;
+			}
 		}
 	}
 }
