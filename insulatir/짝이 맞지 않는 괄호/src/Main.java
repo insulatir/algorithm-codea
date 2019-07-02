@@ -23,6 +23,10 @@ public class Main {
 				if (openStack.empty()) {
 					return false;
 				}
+				
+				if (opening.indexOf(openStack.peek()) != closing.indexOf(formula.charAt(i))) {
+					return false;
+				}
 			}
 		}
 	}
