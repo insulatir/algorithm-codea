@@ -15,5 +15,6 @@ public class Main {
 	public static boolean wellMatched(String formula) {
 		String opening = "({[";
 		String closing = ")}]";
+		Stack<Character> openStack = new Stack<Character>();
 	}
 }
