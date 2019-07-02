@@ -31,5 +31,7 @@ public class Main {
 				openStack.pop();
 			}
 		}
+		
+		return openStack.empty();
 	}
 }
