@@ -19,6 +19,8 @@ public class Main {
 		for (int i = 0; i < formula.length(); i++) {
 			if (opening.indexOf(formula.charAt(i)) != -1) {
 				openStack.push(formula.charAt(i));
+			} else {
+				
 			}
 		}
 	}
