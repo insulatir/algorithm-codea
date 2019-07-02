@@ -12,4 +12,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static boolean wellMatched(String formula) {
+		
+	}
 }
