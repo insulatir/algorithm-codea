@@ -18,7 +18,7 @@ public class Main {
 		Stack<Character> openStack = new Stack<Character>();
 		for (int i = 0; i < formula.length(); i++) {
 			if (opening.indexOf(formula.charAt(i)) != -1) {
-				
+				openStack.push(formula.charAt(i));
 			}
 		}
 	}
