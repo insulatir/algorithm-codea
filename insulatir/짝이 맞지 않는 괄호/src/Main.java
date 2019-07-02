@@ -20,7 +20,9 @@ public class Main {
 			if (opening.indexOf(formula.charAt(i)) != -1) {
 				openStack.push(formula.charAt(i));
 			} else {
-				
+				if (openStack.empty()) {
+					return false;
+				}
 			}
 		}
 	}
