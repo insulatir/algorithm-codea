@@ -27,6 +27,8 @@ public class Main {
 				if (opening.indexOf(openStack.peek()) != closing.indexOf(formula.charAt(i))) {
 					return false;
 				}
+				
+				openStack.pop();
 			}
 		}
 	}
