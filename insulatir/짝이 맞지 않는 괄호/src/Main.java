@@ -16,5 +16,10 @@ public class Main {
 		String opening = "({[";
 		String closing = ")}]";
 		Stack<Character> openStack = new Stack<Character>();
+		for (int i = 0; i < formula.length(); i++) {
+			if (opening.indexOf(formula.charAt(i)) != -1) {
+				
+			}
+		}
 	}
 }
