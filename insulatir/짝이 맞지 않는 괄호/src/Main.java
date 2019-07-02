@@ -7,6 +7,7 @@ public class Main {
 		int C = scan.nextInt();
 		for (int i = 0; i < C; i++) {
 			String formula = scan.next();
+			System.out.println(wellMatched(formula) ? "YES" : "NO");
 		}
 		
 		scan.close();
