@@ -11,6 +11,9 @@ public class Main {
 	}
 
 	public static int[] getPartialMatch(String N) {
-		
+		int m = N.length();
+		int[] pi = new int[m];
+		int begin = 1;
+		int matched = 0;
 	}
 }
