@@ -18,6 +18,8 @@ public class Main {
 			ret.add(k);
 			k = pi[k-1];
 		}
+		
+		return ret;
 	}
 	
 	public static int[] getPartialMatch(String N) {
