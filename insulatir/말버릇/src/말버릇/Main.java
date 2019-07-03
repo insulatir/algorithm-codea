@@ -21,5 +21,13 @@ public class Main {
 		}
 		group[n] = -1;
 		Integer[] perm = new Integer[n];
+		for (int i = 0; i < n; i++) {
+			perm[i] = i;
+		}
+		while (t < n) {
+			Arrays.sort(perm, new Comparator<Integer>() {
+				
+			}
+		}
 	}
 }
