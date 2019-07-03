@@ -15,5 +15,6 @@ public class Main {
 	public static Integer[] getSuffixArray(String s) {
 		int n = s.length();
 		int t = 1;
+		int[] group = new int[n+1];
 	}
 }
