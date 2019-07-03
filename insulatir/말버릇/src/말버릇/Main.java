@@ -12,5 +12,7 @@ public class Main {
 		
 		scan.close();
 	}
-
+	public static Integer[] getSuffixArray(String s) {
+		
+	}
 }
