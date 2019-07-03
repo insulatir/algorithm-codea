@@ -34,6 +34,11 @@ public class Main {
 					return Integer.compare(group[a + t], group[b + t]);
 				}
 			});
+			
+			t *= 2;
+			if (t >= n) {
+				break;
+			}
 		}
 	}
 }
