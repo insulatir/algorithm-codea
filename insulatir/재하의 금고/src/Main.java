@@ -27,6 +27,10 @@ public class Main {
 				matched += 1;
 				if (matched == m) {
 					ret.add(begin);
+				} else {
+					if (matched == 0) {
+						begin += 1;
+					}
 				}
 			}
 		}
