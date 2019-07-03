@@ -15,7 +15,7 @@ public class Main {
 		List<Integer> ret = new ArrayList<Integer>();
 		int k = s.length();
 		while (k > 0) {
-			
+			ret.add(k);
 		}
 	}
 	
