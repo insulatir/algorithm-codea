@@ -10,6 +10,10 @@ public class Main {
 		scan.close();
 	}
 
+	public static List<Integer> getPrefixSuffix(String s) {
+		
+	}
+	
 	public static int[] getPartialMatch(String N) {
 		int m = N.length();
 		int[] pi = new int[m];
