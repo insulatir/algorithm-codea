@@ -16,5 +16,10 @@ public class Main {
 		int n = s.length();
 		int t = 1;
 		int[] group = new int[n+1];
+		for (int i = 0; i < n; i++) {
+			group[i] = s.charAt(i);
+		}
+		group[n] = -1;
+		Integer[] perm = new Integer[n];
 	}
 }
