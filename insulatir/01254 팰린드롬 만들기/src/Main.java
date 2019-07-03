@@ -30,6 +30,8 @@ public class Main {
 				}
 			}
 		}
+		
+		return 2*n;
 	}
 	
 	public static int[] getPartialMatch(String N) {
