@@ -22,6 +22,9 @@ public class Main {
 			} else {
 				if (matched == 0) {
 					begin += 1;
+				} else {
+					begin += matched - pi[matched-1];
+					matched = pi[matched-1];
 				}
 			}
 		}
