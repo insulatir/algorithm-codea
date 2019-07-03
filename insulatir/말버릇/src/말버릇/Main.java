@@ -39,6 +39,18 @@ public class Main {
 			if (t >= n) {
 				break;
 			}
+			
+			int[] newGroup = new int[n+1];
+			newGroup[n] = -1;
+			newGroup[perm[0]] = 0;
+			for (int i = 1; i < n; i++) {
+				if (group[perm[i-1]] < group[perm[i]] || (group[perm[i-1]] == group[perm[i]] && group[perm[i-1] + t] < group[perm[i] + t])) {
+					newGroup[perm[i]] = newGroup[perm[i-1]] + 1;
+				} else {
+					newGroup[perm[i]] = newGroup[perm[i-1]];
+				}
+			}
+			group = newGroup;
 		}
 	}
 }
