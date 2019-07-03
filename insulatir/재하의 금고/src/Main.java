@@ -13,6 +13,8 @@ public class Main {
 				String tar = scan.next();
 				if (j % 2 == 0) {
 					result += shifts(tar, ori);
+				} else {
+					result += shifts(ori, tar);
 				}
 			}
 		}
