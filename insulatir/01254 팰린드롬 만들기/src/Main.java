@@ -15,6 +15,11 @@ public class Main {
 		int[] pi = getPartialMatch(b);
 		int begin = 0;
 		int matched = 0;
+		while (begin < m) {
+			if (matched < m && a.charAt(begin + matched) == b.charAt(matched)) {
+				
+			}
+		}
 	}
 	
 	public static int[] getPartialMatch(String N) {
