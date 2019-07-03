@@ -17,7 +17,10 @@ public class Main {
 		int matched = 0;
 		while (begin < m) {
 			if (matched < m && a.charAt(begin + matched) == b.charAt(matched)) {
-				
+				matched += 1;
+				if (begin + matched == n) {
+					
+				}
 			}
 		}
 	}
