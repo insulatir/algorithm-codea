@@ -16,6 +16,7 @@ public class Main {
 		int k = s.length();
 		while (k > 0) {
 			ret.add(k);
+			k = pi[k-1];
 		}
 	}
 	
