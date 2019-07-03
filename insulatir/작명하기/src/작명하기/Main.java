@@ -15,5 +15,8 @@ public class Main {
 		int[] pi = new int[m];
 		int begin = 1;
 		int matched = 0;
+		while (begin + matched < m) {
+			
+		}
 	}
 }
