@@ -19,7 +19,14 @@ public class Main {
 			if (matched < m && a.charAt(begin + matched) == b.charAt(matched)) {
 				matched += 1;
 				if (begin + matched == n) {
-					
+					return matched + (n-matched)*2;
+				}
+			} else {
+				if (matched == 0) {
+					begin += 1;
+				} else {
+					begin += matched - pi[matched-1];
+					matched = pi[matched-1];
 				}
 			}
 		}
