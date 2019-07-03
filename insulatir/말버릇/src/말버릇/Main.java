@@ -8,6 +8,7 @@ public class Main {
 		for (int i = 0; i < C; i++) {
 			int K = scan.nextInt();
 			String s = scan.next();
+			System.out.println(longestFrequent(K, s));
 		}
 		
 		scan.close();
