@@ -11,6 +11,9 @@ public class Main {
 			String ori = scan.next();
 			for (int j = 0; j < N; j++) {
 				String tar = scan.next();
+				if (j % 2 == 0) {
+					result += shifts(tar, ori);
+				}
 			}
 		}
 	}
