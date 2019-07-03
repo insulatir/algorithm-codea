@@ -13,6 +13,16 @@ public class Main {
 		scan.close();
 	}
 	
+	public static int longestFrequent(int k, String s) {
+		Integer[] a = getSuffixArray(s);
+		int ret = 0;
+		for (int i = 0; i + k <= s.length(); i++) {
+			ret = Math.max(ret, commonPrefix(s, a[i], a[i + k - 1]));
+		}
+		
+		return ret;
+	}
+	
 	public static int commonPrefix(String s, int i, int j) {
 		int k = 0;
 		while (i < s.length() && j < s.length() && s.charAt(i) == s.charAt(j)) {
