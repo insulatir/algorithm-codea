@@ -5,6 +5,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		String S = scan.next();
+		System.out.println(maxOverlap(S, (new StringBuffer(S)).reverse().toString()));
 		
 		scan.close();
 	}
