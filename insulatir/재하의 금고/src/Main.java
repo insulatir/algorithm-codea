@@ -37,6 +37,8 @@ public class Main {
 				}
 			}
 		}
+		
+		return ret;
 	}
 	
 	public static int[] getPartialMatch(String N) {
