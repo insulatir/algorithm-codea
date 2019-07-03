@@ -1,4 +1,3 @@
-package 작명하기;
 import java.util.*;
 public class Main {
 
