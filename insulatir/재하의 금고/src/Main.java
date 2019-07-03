@@ -16,7 +16,10 @@ public class Main {
 	}
 
 	public static List<Integer> kmpSearch(String H, String N) {
-		
+		int n = H.length();
+		int m = N.length();
+		List<Integer> ret = new ArrayList<Integer>();
+		int[] pi = getPartialMatch(N);
 	}
 	
 	public static int[] getPartialMatch(String N) {
