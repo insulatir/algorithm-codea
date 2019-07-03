@@ -6,6 +6,11 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		String S = scan.nextLine() + scan.nextLine();
+		List<Integer> list = getPrefixSuffix(S);
+		Collections.sort(list);
+		for (int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i) + " ");
+		}
 		
 		scan.close();
 	}
