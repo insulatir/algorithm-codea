@@ -12,6 +12,18 @@ public class Main {
 		
 		scan.close();
 	}
+	
+	public static int commonPrefix(String s, int i, int j) {
+		int k = 0;
+		while (i < s.length() && j < s.length() && s.charAt(i) == s.charAt(j)) {
+			i += 1;
+			j += 1;
+			k += 1;
+		}
+		
+		return k;
+	}
+	
 	public static Integer[] getSuffixArray(String s) {
 		int n = s.length();
 		int t = 1;
