@@ -10,7 +10,11 @@ public class Main {
 	}
 
 	public static int maxOverlap(String a, String b) {
-		
+		int n = a.length();
+		int m = b.length();
+		int[] pi = getPartialMatch(b);
+		int begin = 0;
+		int matched = 0;
 	}
 	
 	public static int[] getPartialMatch(String N) {
