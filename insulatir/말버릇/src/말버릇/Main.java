@@ -26,8 +26,13 @@ public class Main {
 		}
 		while (t < n) {
 			Arrays.sort(perm, new Comparator<Integer>() {
-				
-			}
+				@Override
+				public int compare(Integer a, Integer b) {
+					if (group[a] != group[b]) {
+						return Integer.compare(group[a], group[b]);
+					}
+				}
+			});
 		}
 	}
 }
