@@ -31,6 +31,7 @@ public class Main {
 					if (group[a] != group[b]) {
 						return Integer.compare(group[a], group[b]);
 					}
+					return Integer.compare(group[a + t], group[b + t]);
 				}
 			});
 		}
