@@ -20,6 +20,8 @@ public class Main {
 		int m = N.length();
 		List<Integer> ret = new ArrayList<Integer>();
 		int[] pi = getPartialMatch(N);
+		int begin = 0;
+		int matched = 0;
 	}
 	
 	public static int[] getPartialMatch(String N) {
