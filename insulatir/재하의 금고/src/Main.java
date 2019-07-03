@@ -18,6 +18,8 @@ public class Main {
 				}
 				ori = tar;
 			}
+			
+			System.out.println(result);
 		}
 	}
 	
