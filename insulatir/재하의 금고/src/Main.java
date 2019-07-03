@@ -24,7 +24,10 @@ public class Main {
 		int matched = 0;
 		while (begin <= n - m) {
 			if (matched < m && H.charAt(begin + matched) == N.charAt(matched)) {
-				
+				matched += 1;
+				if (matched == m) {
+					ret.add(begin);
+				}
 			}
 		}
 	}
