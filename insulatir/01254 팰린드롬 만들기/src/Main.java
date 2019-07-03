@@ -9,6 +9,10 @@ public class Main {
 		scan.close();
 	}
 
+	public static int maxOverlap(String a, String b) {
+		
+	}
+	
 	public static int[] getPartialMatch(String N) {
 		int m = N.length();
 		int[] pi = new int[m];
