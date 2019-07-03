@@ -16,6 +16,7 @@ public class Main {
 				} else {
 					result += shifts(ori, tar);
 				}
+				ori = tar;
 			}
 		}
 	}
