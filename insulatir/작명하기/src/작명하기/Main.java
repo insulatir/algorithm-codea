@@ -11,7 +11,12 @@ public class Main {
 	}
 
 	public static List<Integer> getPrefixSuffix(String s) {
-		
+		int[] pi = getPartialMatch(s);
+		List<Integer> ret = new ArrayList<Integer>();
+		int k = s.length();
+		while (k > 0) {
+			
+		}
 	}
 	
 	public static int[] getPartialMatch(String N) {
