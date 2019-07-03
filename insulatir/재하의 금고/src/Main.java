@@ -21,6 +21,8 @@ public class Main {
 			
 			System.out.println(result);
 		}
+		
+		scan.close();
 	}
 	
 	public static int shifts(String original, String target) {
