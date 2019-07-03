@@ -22,6 +22,11 @@ public class Main {
 		int[] pi = getPartialMatch(N);
 		int begin = 0;
 		int matched = 0;
+		while (begin <= n - m) {
+			if (matched < m && H.charAt(begin + matched) == N.charAt(matched)) {
+				
+			}
+		}
 	}
 	
 	public static int[] getPartialMatch(String N) {
