@@ -16,7 +16,10 @@ public class Main {
 		int begin = 1;
 		int matched = 0;
 		while (begin + matched < m) {
-			
+			if (N.charAt(begin + matched) == N.charAt(matched)) {
+				matched += 1;
+				pi[begin+matched-1] = matched;
+			}
 		}
 	}
 }
