@@ -52,5 +52,7 @@ public class Main {
 			}
 			group = newGroup;
 		}
+		
+		return perm;
 	}
 }
