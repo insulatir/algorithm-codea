@@ -15,6 +15,10 @@ public class Main {
 		}
 	}
 
+	public static List<Integer> kmpSearch(String H, String N) {
+		
+	}
+	
 	public static int[] getPartialMatch(String N) {
 		int m = N.length();
 		int[] pi = new int[m];
