@@ -14,6 +14,10 @@ public class Main {
 			}
 		}
 	}
+	
+	public static int shifts(String original, String target) {
+		return kmpSearch(original.concat(original), target).get(0);
+	}
 
 	public static List<Integer> kmpSearch(String H, String N) {
 		int n = H.length();
