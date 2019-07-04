@@ -26,5 +26,12 @@ public class Main {
 		}
 		
 		int root = preorder[0];
+		int L = 0;
+		for (int i = 0; i < N; i++) {
+			if (inorder[i] == root) {
+				L = i;
+				break;
+			}
+		}
 	}
 }
