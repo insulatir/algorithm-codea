@@ -19,4 +19,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static void printPostOrder(int[] preorder, int[] inorder) {
+		
+	}
 }
