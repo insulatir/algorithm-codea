@@ -33,5 +33,8 @@ public class Main {
 				break;
 			}
 		}
+		
+		printPostOrder(Arrays.copyOfRange(preorder, 1, L+1), Arrays.copyOfRange(inorder, 0, L));
+		printPostOrder(Arrays.copyOfRange(preorder, L+1, N), Arrays.copyOfRange(inorder, L+1, N));
 	}
 }
