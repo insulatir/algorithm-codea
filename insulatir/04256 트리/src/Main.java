@@ -24,5 +24,7 @@ public class Main {
 		if (N == 0) {
 			return;
 		}
+		
+		int root = preorder[0];
 	}
 }
