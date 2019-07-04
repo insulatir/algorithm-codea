@@ -14,6 +14,9 @@ public class Main {
 			for (int j = 0; j < n; j++) {
 				inorder[j] = scan.nextInt();
 			}
+			
+			printPostOrder(preorder, inorder);
+			System.out.println();
 		}
 		
 		scan.close();
