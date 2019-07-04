@@ -20,6 +20,6 @@ public class Main {
 	}
 
 	public static void printPostOrder(int[] preorder, int[] inorder) {
-		
+		int N = preorder.length;
 	}
 }
