@@ -31,6 +31,16 @@ public class Main {
 		
 		for (int i = n-1; i >= 0; i--) {
 			int larger = shifted[i];
+			
+			int[] mapKeys = new int[candidates.size()];
+			int pos = 0;
+			for (int key : candidates.keySet()) {
+			    mapKeys[pos++] = key;
+			}
+			int k = mapKeys[i - larger];
+			A[i] = k;
+			
+			candidates.remove(k);
 		}
 	}
 }
