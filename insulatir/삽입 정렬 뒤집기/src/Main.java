@@ -23,4 +23,7 @@ public class Main {
 		bw.close();
 	}
 
+	public static void solve() {
+		
+	}
 }
