@@ -25,5 +25,8 @@ public class Main {
 
 	public static void solve() {
 		Map<Integer, Integer> candidates = new TreeMap<Integer, Integer>();
+		for (int i = 1; i <= n; i++) {
+			candidates.put(i, i);
+		}
 	}
 }
