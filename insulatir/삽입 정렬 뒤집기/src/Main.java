@@ -17,6 +17,7 @@ public class Main {
 				shifted[j] = Integer.parseInt(arr[j]);
 			}
 			
+			solve();
 		}
 		
 		bw.flush();
