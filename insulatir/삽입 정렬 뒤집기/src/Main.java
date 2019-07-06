@@ -3,6 +3,7 @@ import java.io.*;
 public class Main {
 	static int n;
 	static int[] shifted = new int[50000];
+	static int[] A = new int[50000];
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
