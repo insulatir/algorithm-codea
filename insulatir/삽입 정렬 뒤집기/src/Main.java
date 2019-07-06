@@ -30,7 +30,7 @@ public class Main {
 		}
 		
 		for (int i = n-1; i >= 0; i--) {
-			
+			int larger = shifted[i];
 		}
 	}
 }
