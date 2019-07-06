@@ -24,6 +24,6 @@ public class Main {
 	}
 
 	public static void solve() {
-		
+		Map<Integer, Integer> candidates = new TreeMap<Integer, Integer>();
 	}
 }
