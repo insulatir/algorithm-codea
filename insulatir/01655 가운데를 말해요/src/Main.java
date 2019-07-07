@@ -6,6 +6,7 @@ public class Main {
 		scan = new Scanner(System.in);
 		
 		int N = scan.nextInt();
+		runningMedian(N);
 		
 		scan.close();
 	}
