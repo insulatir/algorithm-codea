@@ -11,6 +11,7 @@ public class Main {
 	}
 
 	public static void runningMedian(int n) {
-		
+		PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(Collections.reverseOrder());
+		PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
 	}
 }
