@@ -28,6 +28,8 @@ public class Main {
 				maxHeap.add(b);
 				minHeap.add(a);
 			}
+			
+			System.out.println(maxHeap.peek());
 		}
 	}
 }
