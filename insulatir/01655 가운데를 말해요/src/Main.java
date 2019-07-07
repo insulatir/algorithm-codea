@@ -10,4 +10,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static void runningMedian(int n) {
+		
+	}
 }
