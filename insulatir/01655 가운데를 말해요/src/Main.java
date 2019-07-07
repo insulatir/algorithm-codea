@@ -20,6 +20,14 @@ public class Main {
 			} else {
 				minHeap.add(scan.nextInt());
 			}
+			
+			if (!minHeap.isEmpty() && ! maxHeap.isEmpty() &&
+					minHeap.peek() < maxHeap.peek()) {
+				int a = maxHeap.poll();
+				int b = minHeap.poll();
+				maxHeap.add(b);
+				minHeap.add(a);
+			}
 		}
 	}
 }
